@@ -1,0 +1,30 @@
+Source: node-cookiejar
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , pkg-js-tools (>= 0.9.12~)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookiejar
+Vcs-Git: https://salsa.debian.org/js-team/node-cookiejar.git
+Homepage: https://github.com/bmeck/node-cookiejar
+Rules-Requires-Root: no
+
+Package: node-cookiejar
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: simple persistent cookiejar system - Node.js module
+ This package contains a simple and robust cookie library.
+ .
+ The following classes are included:
+  * CookieAccessInfo: determines matching qualities of a cookie
+  * Cookie: turns parameter into a Cookie
+  * CookieJar: class to hold numerous cookies from multiple
+    domains correctly
+ .
+ Node.js is an event-based server-side JavaScript engine.

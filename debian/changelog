@@ -1,0 +1,36 @@
+node-cookiejar (2.1.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Leo Iannacone ]
+  * set Upstream-Contact to /issues url
+  * fix Upstream-Name to node-cookiejar
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch test and install to pkg-js-tools
+  * New upstream version 2.1.2
+  * Update VCS fields to salsa
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 20 Oct 2019 12:44:14 +0200
+
+node-cookiejar (2.0.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.0.1
+  * Bump Standards-Version 3.9.6
+  * debian/watch: fix dversionmangle
+  * Add autopkgtest suite
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sun, 12 Oct 2014 12:08:51 +0200
+
+node-cookiejar (1.3.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #750211)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sat, 07 Jun 2014 15:37:21 +0200
